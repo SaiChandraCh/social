@@ -1,0 +1,10 @@
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/model/Role.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/service/UserService.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/service/AdminService.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/SocialApplication.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/config/WebSecurity.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/model/User.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/repository/RoleRepository.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/repository/UserRepository.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/controller/UserController.java
+/home/sai/Codebase/sai/codebase/workarea/social/src/main/java/com/socials/social/controller/AdminController.java

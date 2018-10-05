@@ -1,0 +1,25 @@
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<Configuration monitorInterval="60">-->
+    <!--<Properties>-->
+        <!--<Property name="filename">logs</Property>-->
+    <!--</Properties>-->
+    <!--<Appenders>-->
+        <!--&lt;!&ndash;<Console name="STDOUT" target="SYSTEM_OUT">&ndash;&gt;-->
+            <!--&lt;!&ndash;<PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</Console>&ndash;&gt;-->
+        <!--<File name="LOGFILE"-->
+              <!--fileName="${filename}/automated-testing-ws.log">-->
+            <!--<PatternLayout pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"/>-->
+        <!--</File>-->
+    <!--</Appenders>-->
+    <!--<Loggers>-->
+
+        <!--<Logger name="com.gsk.testing.automation.automatedtestingws" level="debug">-->
+            <!--<AppenderRef ref="LOGFILE"-->
+                         <!--level="debug" />-->
+        <!--</Logger>-->
+        <!--<Root level="debug">-->
+            <!--<AppenderRef ref="STDOUT"/>-->
+        <!--</Root>-->
+    <!--</Loggers>-->
+<!--</Configuration>-->
