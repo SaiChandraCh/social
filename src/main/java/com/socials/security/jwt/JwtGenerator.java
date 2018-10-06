@@ -20,9 +20,10 @@ public class JwtGenerator {
 
         key= Keys.secretKeyFor(SignatureAlgorithm.HS256);
         String token = Jwts.builder()
-                    .setClaims(claims)//.setExpiration(new Date(10000))
+                    .setClaims(claims)
+                    .setExpiration(new Date(System.currentTimeMillis() + 1000*60))
                     .signWith(key).compact();
-        System.out.println("Token in JwtGenerator:"+ token);
+        System.out.println("token : "+token);
         return token;
     }
 }
